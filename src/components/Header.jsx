@@ -6,7 +6,7 @@ const HeaderDesktop = () => {
     <div
       className=" hidden  bg-red-400 h-1/2 w-[100vw] pb-10 pt-10 bg-cover bg-no-repeat lg:block "
       style={{
-        backgroundImage: `url(/src/assets/images/desktop/image-hero.jpg)`,
+        backgroundImage: `url(src/assets/images/desktop/image-hero.jpg)`,
       }}
     >
       <div className="relative top-[-2rem]">
