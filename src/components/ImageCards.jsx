@@ -9,9 +9,8 @@ import "../component.css";
 const ImageCardsDesktop = () => {
   const myCard = cardDetails;
   const cards = myCard.map((value, index) => {
-    const variable=myCard[index].imageName
-    const image= Object.values(variable)
-    console.log(image.at(0))
+    const temp=myCard[index].imageName
+    const image= Object.values(temp)
     return (
       <ImageCard
         key={index}

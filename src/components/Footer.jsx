@@ -1,5 +1,9 @@
 import React from "react";
 import "../component.css";
+import Facebook from "../assets/images/icon-facebook.svg"
+import Instagram from "../assets/images/icon-Instagram.svg"
+import Pinterest from "../assets/images/icon-Pinterest.svg"
+import Twitter from "../assets/images/icon-Twitter.svg"
 const Footer = () => {
   return (
     <footer
@@ -66,9 +70,8 @@ const Footer = () => {
             <div>
               <a href="#">
                 <img 
-                  src="src/assets/images/icon-facebook.svg"
+                  src={Facebook}
                   alt="facebook"
-                  srcset=""
                 />
               </a>
             </div>
@@ -76,27 +79,24 @@ const Footer = () => {
             <div>
               <a href="#">
                 <img
-                  src="src/assets/images/icon-twitter.svg"
+                  src={Twitter}
                   alt="twitter"
-                  srcset=""
                 />
               </a>
             </div>
             <div>
               <a href="#">
                 <img
-                  src="src/assets/images/icon-pinterest.svg"
+                  src={Pinterest}
                   alt="pinterest"
-                  srcset=""
                 />
               </a>
             </div>
             <div>
               <a href="#">
                 <img
-                  src="src/assets/images/icon-instagram.svg"
+                  src={Instagram}
                   alt="instagram"
-                  srcset=""
                 />
               </a>
             </div>
