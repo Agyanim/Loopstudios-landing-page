@@ -1,6 +1,7 @@
 import React from "react";
 import LeadCard from "./Cards";
 import "../component.css";
+import InteractiveImage from "../assets/images/desktop/image-interactive.jpg"
 
 const Interactive = () => {
   return (
@@ -22,9 +23,8 @@ const Interactive = () => {
           className="
        
         "
-          src="/src/assets/images/desktop/image-interactive.jpg"
+          src={InteractiveImage}
           alt=""
-          srcset=""
         />
       </div>
       {/* leader card wrapper */}
