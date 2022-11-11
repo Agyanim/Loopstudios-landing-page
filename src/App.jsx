@@ -1,6 +1,5 @@
 import React from "react";
-import Header, { HeaderMobile } from "./components/Header";
-import LeadCard, { ImageCard } from "./components/Cards";
+import { HeaderMobile } from "./components/Header";
 import { Button2 } from "./components/Button";
 import ImageCardsDesktop, { ImageCardsMobile } from "./components/ImageCards";
 import HeaderDesktop from "./components/Header";

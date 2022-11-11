@@ -1,7 +1,7 @@
 import React from "react";
 import "../component.css";
 import Facebook from "../assets/images/icon-facebook.svg"
-import Instagram from "../assets/images/icon-Instagram.svg"
+// import Instagram from "../assets/images/icon-Instagram.svg"
 import Pinterest from "../assets/images/icon-Pinterest.svg"
 import Twitter from "../assets/images/icon-Twitter.svg"
 const Footer = () => {
@@ -94,10 +94,10 @@ const Footer = () => {
             </div>
             <div>
               <a href="#">
-                <img
+                {/* <img
                   src={Instagram}
                   alt="instagram"
-                />
+                /> */}
               </a>
             </div>
           </div>
