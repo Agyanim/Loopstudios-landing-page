@@ -1,9 +1,9 @@
 import React from "react";
 import "../component.css";
-// import Facebook from "../assets/images/icon-facebook.svg"
-// import Instagram from "../assets/images/icon-Instagram.svg"
-// import Pinterest from "../assets/images/icon-Pinterest.svg"
-// import Twitter from "../assets/images/icon-Twitter.svg"
+import Facebook from "../assets/images/icon-facebook.svg"
+import Instagram from "../assets/images/icon-Instagram.svg"
+import Pinterest from "../assets/images/icon-Pinterest.svg"
+import Twitter from "../assets/images/icon-Twitter.svg"
 const Footer = () => {
   return (
     <footer
@@ -61,7 +61,7 @@ const Footer = () => {
           "
         >
           {/* social links wrapper */}
-          {/* <div
+          <div
             className="flex pb-6 gap-[1rem] w-[8rem] ml-[3.5rem]
             lg:pl-[7.5rem] lg:w-full lg:p-2 lg:ml-[-1rem]
         
@@ -100,7 +100,7 @@ const Footer = () => {
                 />
               </a>
             </div>
-          </div> */}
+          </div>
 
           {/* copy right section */}
           <p className="text-white text-[0.8rem] 
