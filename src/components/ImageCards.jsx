@@ -36,7 +36,7 @@ const ImageCardsDesktop = () => {
 export default ImageCardsDesktop;
 
 export const ImageCardsMobile = () => {
-  const myCard = cardDetails;
+  const myCard = cardDetailsMobile;
   const cards = myCard.map((value, index) => {
     const variable=myCard[index].imageName
     const image= Object.values(variable)
