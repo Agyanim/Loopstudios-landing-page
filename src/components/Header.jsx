@@ -1,12 +1,13 @@
 import React from "react";
 import Navigation from "./Navigation";
+import Image from '../assets/images/desktop/image-hero.jpg';
 
 const HeaderDesktop = () => {
   return (
     <div
       className=" hidden  bg-red-400 h-1/2 w-[100vw] pb-10 pt-10 bg-cover bg-no-repeat lg:block "
       style={{
-        backgroundImage: `url(src/assets/images/desktop/image-hero.jpg)`,
+        backgroundImage: `url(${Image})`,
       }}
     >
       <div className="relative top-[-2rem]">
