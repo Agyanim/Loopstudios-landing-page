@@ -4,6 +4,8 @@ import Facebook from "../assets/icon-facebook.svg"
 import Instagram from "../assets/icon-Instagram.svg"
 import Pinterest from "../assets/icon-Pinterest.svg"
 import Twitter from "../assets//icon-Twitter.svg"
+import Hamberger from "../assets/images/icon-hamburger.svg"
+
 const Footer = () => {
   return (
     <footer
@@ -67,37 +69,37 @@ const Footer = () => {
         
         "
           >
-            <div>
+            <div className="shrink-0">
               <a href="#">
                 <img 
-                  src={Facebook}
+                  src={Hamberger}
                   alt="facebook"
                 />
               </a>
             </div>
 
-            <div>
+            <div className="shrink-0">
               <a href="#">
-                <img
+                {/* <img
                   src={Twitter}
                   alt="twitter"
-                />
+                /> */}
               </a>
             </div>
-            <div>
+            <div className="shrink-0">
               <a href="#">
-                <img
+                {/* <img
                   src={Pinterest}
                   alt="pinterest"
-                />
+                /> */}
               </a>
             </div>
-            <div>
+            <div className="shrink-0">
               <a href="#">
-                <img
+                {/* <img
                   src={Instagram}
                   alt="instagram"
-                />
+                /> */}
               </a>
             </div>
           </div>
