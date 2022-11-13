@@ -13,9 +13,9 @@ const Interactive = () => {
         "
     >
       <div
-        className="w-full
-        lg:relative lg:w-[50vw] ml-[-1.5rem] 
-      xl:relative xl:left-[5rem] xl:w-full
+        className=" w-full sm:relative 
+        lg:w-[50vw] 
+      xl:left-[5rem] xl:w-full
 
       "
       >
