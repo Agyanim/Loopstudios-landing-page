@@ -42,7 +42,7 @@ export const ImageCard = ({ imageName, prefix, title }) => {
         }}
       >
         <h1 className="uppercase mt-[3.5rem] pl-[1rem] text-lg
-        sm:mt-[3rem]
+        sm:mt-[2rem]
         lg:mt-[18rem] lg:left-[-1rem]  
         xl:text-2xl xl:mt-[24rem]
         1xl:mt-[24rem]
