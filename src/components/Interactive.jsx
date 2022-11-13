@@ -7,15 +7,15 @@ const Interactive = () => {
   return (
     // Interactive image and Leader card wrapper
     <div
-      className="lg:flex justify-center h-[30rem] w-[78%] m-auto mt-[4rem]
+      className="
+      lg:flex-row justify-center h-[30rem]  
     xl:w-[56%]
         "
     >
       <div
         className="w-full
-        lg:relative lg:w-[32rem] lg:left-[-20%]
-      xl:relative xl:left-[-27%] xl:w-full
-      lg2:left-[-8rem]
+        lg:relative lg:w-[50vw] ml-[-1.5rem] 
+      xl:relative xl:left-[5rem] xl:w-full
 
       "
       >
@@ -29,7 +29,7 @@ const Interactive = () => {
       </div>
       {/* leader card wrapper */}
       <div
-        className=" absolute 
+        className=" mt-[2rem]
       lg:absolute lg:left-[48%] lg:top-[40rem]
       xl:absolute xl:left-[46.5%] xl:top-[47rem]
       

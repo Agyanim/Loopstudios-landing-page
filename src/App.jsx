@@ -14,7 +14,8 @@ function App() {
         <HeaderMobile />
       </div>
       <div
-        className="xl:w-[90%] xl:m-auto xl:mt-[8rem] xl:ml-[0.7rem]
+        className="w-[80vw] m-auto mt-[5rem]
+        xl:w-[90%] xl:m-auto xl:mt-[8rem] xl:ml-[0.7rem]
       lg:mt-[4rem]
       "
       >
@@ -24,16 +25,17 @@ function App() {
       {/* Our creations container */}
       <div
         className="flex justify-center
-      lg:justify-between lg:w-[80%] lg:m-auto lg:relative items-center lg:top-[-2rem]
+      lg:justify-between lg:w-[80%] lg:m-auto lg:relative items-center lg:mt-[3rem]
       xl:top-[7rem]  xl:w-[76%]
         "
       >
         {/* our creation  */}
         <div>
         <h1
-          className=" text-center text-4xl 
-          lg:text-3xl lg:ml-[-8%]
-          xl:ml-[-60%]
+          className=" text-center text-4xl mt-[4rem] mb-8
+          sm:mt-[16rem] sm:mb-8
+          lg:text-3xl lg:ml-[-8%] lg:mt-5
+          xl:ml-[-80%]
         "
         >
           OUR CREATIONS
@@ -42,8 +44,8 @@ function App() {
 
         {/* see all button wrapper */}
         <div
-          className="hidden
-        lg:block 
+          className="hidden 
+        lg:block xl:absolute xl:right-[-6.5vw]
         
         "
         >
@@ -61,10 +63,10 @@ function App() {
         <ImageCardsDesktop />
       </div>
       {/* Mobile view images container */}
-      <div className="flex-col lg:hidden ">
+      <div className=" lg:hidden sm: ">
         <ImageCardsMobile />
       </div>
-      <div className="flex justify-center mb-[2rem]
+      <div className="flex justify-center my-[2rem]
       lg:hidden
       ">
       <Button2 />

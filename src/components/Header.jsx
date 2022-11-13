@@ -15,7 +15,7 @@ const HeaderDesktop = () => {
         <Navigation backg="transparent" />
       </div>
 
-      <h1 className="box-border text-4xl leading-10 text-white uppercase p-2 mx-[4rem] my-20 border-2 w-72 h-46 ">
+      <h1 className="box-border text-4xl leading-10 text-white uppercase p-3 mx-[4rem] my-20 border-2 w-[23vw] h-46 ">
         Immersive Experiences That Deliver
       </h1>
     </div>
