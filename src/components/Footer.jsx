@@ -57,7 +57,7 @@ const Footer = () => {
 
         {/* Social links  and copy right Container*/}
         <div
-          className=" flex flex-col items-center my-20 lg:my-0
+          className=" flex flex-col items-center my-20 lg:my-0 lg:items-end
           "
         >
           {/* social links wrapper */}
