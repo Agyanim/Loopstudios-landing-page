@@ -7,46 +7,44 @@ import "../component.css";
 
 const ImageCardsDesktop = () => {
   const myCard = cardDetails;
-  const cards = myCard.map((value, index) => {
-    const temp = myCard[index].imageName;
-    const image = Object.values(temp);
-    return (
-      <ImageCard
-        key={index}
-        imageName={image}
-        prefix={myCard[index].prefix}
-        title={myCard[index].title}
-      />
-    );
-  });
-
-  return <section className="flex flex-wrap lg:gap-6 xl:gap-8">{cards}</section>;
+  return (
+    <section className="flex flex-wrap lg:gap-6 xl:gap-8">
+      {myCard.map((images, i) => {
+        return (
+          <ImageCard
+            key={i}
+            imageName={Object.values(images.imageName)}
+            prefix={images.prefix}
+            title={images.title}
+          />
+        );
+      })}
+    </section>
+  );
 };
 
 export default ImageCardsDesktop;
 
 export const ImageCardsMobile = () => {
   const myCard = cardDetailsMobile;
-  const cards = myCard.map((value, index) => {
-    const variable = myCard[index].imageName;
-    const image = Object.values(variable);
-    console.log(image.at(0));
-    return (
-      <ImageCard
-        key={index}
-        imageName={image}
-        prefix={myCard[index].prefix}
-        title={myCard[index].title}
-      />
-    );
-  });
+
   return (
     <section
       className="flex flex-col gap-9 sm:flex-row sm:flex-wrap lg:hidden 
     
     "
     >
-      {cards}
+      {myCard.map((images, i) => {
+        
+        return (
+          <ImageCard
+            key={i}
+            imageName={Object.values(images.imageName)}
+            prefix={images.prefix}
+            title={images.title}
+          />
+        );
+      })}
     </section>
   );
 };
