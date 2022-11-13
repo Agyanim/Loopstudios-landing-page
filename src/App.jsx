@@ -16,7 +16,7 @@ function App() {
       <div
         className="w-[80vw] m-auto mt-[5rem]
         xl:w-[90%] xl:m-auto xl:mt-[8rem] xl:ml-[0.7rem]
-      lg:mt-[4rem]
+      lg:mt-[4rem] 
       "
       >
         <Interactive />
@@ -33,7 +33,7 @@ function App() {
         <div>
         <h1
           className=" text-center text-4xl mt-[4rem] mb-8
-          sm:mt-[16rem] sm:mb-8
+          sm:mt-[21rem] sm:mb-8
           lg:text-3xl lg:ml-[-8%] lg:mt-5
           xl:ml-[-80%]
         "

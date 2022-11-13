@@ -6,7 +6,7 @@ import "../component.css";
 const LeadCard = () => {
   return (
     <div className=" p-[1rem] text-center w-[80vw] mx-auto
-    sm:w-[60vw] 
+    sm:w-[60vw] sm:mt-[4rem]
     lg:w-[49vw] lg:p-10 lg:text-left lg:bg-white
     xl:w-[50vw] xl:p-[3rem] 
     ">
@@ -35,14 +35,14 @@ export const ImageCard = ({ imageName, prefix, title }) => {
     <>
       <div
         className="  bg-no-repeat bg-cover  text-white w-[80vw] mx-auto h-[20.8vh]
-      sm:w-[42vw] sm:h-[20.1vh] lg:w-[19.2vw] lg:bg-cover lg:h-[50vh] xl:w-[20vw] xl:h-[35vw] 1xl:w-[20vw] 1xl:h-[57vh]
+      sm:w-[42vw] sm:h-[25vh] lg:w-[19.2vw] lg:bg-cover lg:h-[50vh] xl:w-[20vw] xl:h-[35vw] 1xl:w-[20vw] 1xl:h-[57vh]
         shadow-md hover:shadow-indigo-700/80 hover:scale-[1.1] transition-all duration-700"
         style={{
           backgroundImage: `url(${imageName})`,
         }}
       >
         <h1 className="uppercase mt-[3rem] pl-[1rem] text-lg
-        sm:mt-[0px]
+        sm:mt-[5rem]
         lg:mt-[18rem] lg:left-[-1rem]  
         xl:text-2xl xl:mt-[24rem]
         1xl:mt-[24rem]
