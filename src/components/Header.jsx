@@ -6,10 +6,10 @@ import MobiletImage from '../assets/images/mobile/image-hero.jpg';
 const HeaderDesktop = () => {
   return (
     <div
-      className=" hidden  bg-red-400 h-1/2 w-[100vw] pb-10 pt-10 bg-cover bg-no-repeat lg:block bg-[url(src/assets/images/desktop/image-hero.jpg)]"
-      // style={{
-      //   backgroundImage: `url(${DesktImage})`,
-      // }}
+      className=" hidden  bg-red-400 h-1/2 w-[100vw] pb-10 pt-10 bg-cover bg-no-repeat lg:block "
+      style={{
+        backgroundImage: `url(${DesktImage})`,
+      }}
     >
       <div className="relative top-[-2rem]">
         <Navigation backg="transparent" />
